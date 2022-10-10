@@ -1,0 +1,58 @@
+/*Restabeleço toda configuração da pagina*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  helvetica;
+}
+.superior-1{
+    text-align: left;
+    padding: 40px;
+    color: yellow;
+}
+
+body{
+   background-image: url('../img/preto.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    
+    /*background-size: cover;*/
+}
+
+
+.container{
+ color:rgb(15, 59, 135);
+ min-height: 60vh;
+ padding: 60px;
+ margin: 1% 1.5%;
+}
+.product-container{
+   /* line-height: auto;
+    width:400px;
+ word-wrap: break-word;*/
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.jogadores-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.card{
+    width: 31%;
+    margin: 1% 1%;
+    padding: 15px;
+}
+.resumo-jogad{
+    color: blueviolet;
+}
+/*imagens*/
+#img-1{
+    background-image: url('../img/Neymar1.png');
+}
